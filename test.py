@@ -1,6 +1,5 @@
 import click
 
-
 @click.group(invoke_without_command=True)
 @click.argument('name', nargs=1, required=False)
 @click.option('-c', '--count')

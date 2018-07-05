@@ -2,7 +2,7 @@ from unittest import TestCase
 
 from click.testing import CliRunner
 
-from projectname import cli
+from test import cli
 
 
 class TestSample(TestCase):
